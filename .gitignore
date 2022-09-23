@@ -1,0 +1,25 @@
+# dev
+vendor/
+composer.lock
+*.lock
+*-lock.json
+*.env
+*.bak
+*.cache
+.php-cs-fixer.cache
+
+# editors
+.vscode/*
+nbprojects
+.project
+
+# logs / db
+*.log
+
+# Mac OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db

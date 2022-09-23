@@ -1,0 +1,40 @@
+{
+    "name": "lisi4ok/phalcon-bootstrap",
+    "type": "library",
+    "description": "This is a sample Bootstrapping application for the Phalcon PHP Framework",
+    "keywords": [
+        "bootstrap",
+        "phalcon",
+        "framework",
+        "php"
+    ],
+    "license": "MIT",
+    "homepage": "https://lisi4ok.com",
+    "authors": [
+        {
+            "name": "Zaio Klepoyshkov",
+            "email": "lisi4ok@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform": {
+            "php": "8.1"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "ext-mbstring": "*",
+        "ext-phalcon": "^5.0.0RC4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phalcon\\Bootstrap\\": "src/"
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
