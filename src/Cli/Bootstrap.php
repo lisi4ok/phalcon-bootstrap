@@ -27,7 +27,7 @@ class Bootstrap implements BootstrapInterface
     /**
      * {@inheritDoc}
      */
-    public function run(array $server): bool|TaskInterface
+    public function run(array $server, ?string $context = null): bool|TaskInterface
     {
         $app = $this->factory->createCli();
 

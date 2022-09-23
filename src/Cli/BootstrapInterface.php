@@ -16,5 +16,5 @@ interface BootstrapInterface
     /**
      * Run the console application and return the response.
      */
-    public function run(array $server): bool|TaskInterface;
+    public function run(array $server, ?string $context = null): bool|TaskInterface;
 }
