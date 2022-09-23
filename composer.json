@@ -27,7 +27,7 @@
     "require": {
         "php": "^8.1",
         "ext-mbstring": "*",
-        "ext-phalcon": "^5.0.0RC4"
+        "ext-phalcon": "^v5.0.1"
     },
     "autoload": {
         "psr-4": {
